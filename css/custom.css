@@ -1,0 +1,39 @@
+  /*修改图片边框*/
+
+.custom .zoomimage_st {
+	height: 40px;
+}
+
+.custom .zoomimage_sc {
+	top: 40px;
+}
+
+.custom .zoomimage_sb {
+	height: 40px;
+}
+
+.custom img {
+	top: 40px;
+	left: 40px;
+}
+.custom .zoomimage_caption {
+	background-color: #4F4F4F;
+	color: #fff;
+}
+.custom .zoomimage_caption p {
+}
+.custom .zoomimage_loading {
+	background-color: #4F4F4F;
+}
+.zoomimage_move {
+	cursor: move;
+}
+.custom .zoomimage_controls {
+	background: #4F4F4F;
+}
+.custom .zoomimage_prev {
+	background: #4F4F4F url(../images/zoomimage_prev.gif) no-repeat center;
+}
+.custom .zoomimage_next {
+	background: #4F4F4F url(../images/zoomimage_next.gif) no-repeat center;
+}
