@@ -1,5 +1,5 @@
 # Host: localhost  (Version: 5.5.47)
-# Date: 2016-06-12 14:59:01
+# Date: 2016-06-12 16:24:18
 # Generator: MySQL-Front 5.3  (Build 4.234)
 
 /*!40101 SET NAMES gb2312 */;
@@ -25,6 +25,7 @@ CREATE TABLE `imagerec` (
 # Data for table "imagerec"
 #
 
+INSERT INTO `imagerec` VALUES (0,'29e7ab64-f178-f7bc-1675-a9372d598d78.jpg','2016-06-12 16:20:55',0,NULL,NULL,NULL,NULL,NULL);
 
 #
 # Structure for table "timerec"
@@ -52,6 +53,7 @@ CREATE TABLE `timerec` (
 # Data for table "timerec"
 #
 
+INSERT INTO `timerec` VALUES (0,'2015','2016-6-2','花都','test','测试','0','nn','2016-06-12 15:54:55',NULL,NULL,NULL,NULL,NULL),(0,'2016','2016-6-11','天河员村','网站上线了','第一个网站,虽然还有一些问题还需要解决,但勉强能用了','0','wei','2016-06-12 16:20:55',NULL,NULL,NULL,NULL,NULL);
 
 #
 # Structure for table "user"
@@ -66,7 +68,7 @@ CREATE TABLE `user` (
   `address` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT COMMENT='用户表';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT COMMENT='用户表';
 
 #
 # Data for table "user"
